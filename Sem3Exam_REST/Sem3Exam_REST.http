@@ -1,0 +1,11 @@
+@Sem3Exam_REST_HostAddress = http://localhost:5219
+
+GET {{Sem3Exam_REST_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{Sem3Exam_REST_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
